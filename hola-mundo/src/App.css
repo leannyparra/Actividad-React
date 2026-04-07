@@ -1,0 +1,122 @@
+.contenedor{
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000000;
+  padding: 15px 40px;
+  color: white;
+  box-shadow:  0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo{
+  margin: 0;
+}
+
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li{
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav-links li:hover {
+  color: #00bcd4;
+}
+
+/*inicio */
+.inicio{
+  height:90vh;
+  background: linear-gradient(135deg, #79d4e8, #563bb8);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  padding: 20px;
+}
+
+.inicio h1 {
+  font-size: 45px;
+  margin: 0;
+}
+
+.inicio p {
+  max-width: 500px;
+}
+
+.inicio button {
+  margin-top: 15px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.inicio button:hover {
+  background: #00bcd4;
+  color: white;
+}
+
+/* acerca */
+.acerca {
+  padding: 60px 20px;
+  text-align: center;
+  background: white;
+}
+
+.acerca h2 {
+  margin-bottom: 15px;
+}
+
+.acerca p {
+  max-width: 600px;
+  margin: auto;
+  color: #555;
+}
+
+/* Aside */
+.aside {
+  background: #e3e6f0;
+  padding: 30px;
+  text-align: center;
+}
+
+.aside h3 {
+  margin-bottom: 10px;
+}
+
+/* footer */
+.footer {
+  background: #1e1e2f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+/* quienes somos */
+.quienes {
+  padding: 50px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+/* porque elegirnos */
+.porque {
+  padding: 50px;
+  background: #ffffff;
+  text-align: center;
+}
