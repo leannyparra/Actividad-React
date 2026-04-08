@@ -9,12 +9,12 @@ const App = () => {
 
       {/* NAVBAR: barra de navegación */}
     <nav className="navbar">
-      <h2 className="titulo">Mi App</h2>
+      <h2 className="app">SportWear</h2>
 
        {/* Menú de navegación */}
       <ul className="nav-links">
         <li>Inicio</li>
-        <li>Acerca de</li>
+        <li>Productos</li>
         <li>Contacto</li>
       </ul>
     </nav>
@@ -24,41 +24,40 @@ const App = () => {
       {/* seccion principal: presentación principal */}
       {/* section: para dividir la página en partes organizadas. */}
       <section className="inicio">
-        <h1>Bienvenido</h1>
-        <p> Creamos soluciones digitales modernas combinando  diseño y programación
-        para impulsar tus ideas al siguiente nivel.</p>
-        <button>Explorar mas</button> {/* Botón de acción */}
+        <h1>Rinde al máximo con nuestro estilo</h1>
+        <p> Descubre ropa deportiva de alta calidad diseñada para brindarte
+          comodidad, resistencia y estilo en cada entrenamiento.</p>
+        <button>Ver coleccion</button> {/* Botón de acción */}
       </section>
 
        {/* seccion acerca de: información del proyecto */}
       <section className="acerca">
         <h2>Acerca de nosotros</h2>
-        <p>Somos un equipo apasionado por el desarrollo web, especializado en la
-        creación de aplicaciones modernas utilizando tecnologías como React.
-        Nuestro objetivo es ofrecer soluciones eficientes, escalables y con
-        una excelente experiencia de usuario.</p>
+        <p>Somos una marca dedicada a la ropa deportiva, enfocada en ofrecer
+          prendas modernas, cómodas y funcionales para deportistas y personas
+          activas. Trabajamos con materiales de alta calidad para mejorar tu rendimiento.</p>
       </section>
 
       {/* seccion quienes somos: descripcion del equipo */}
       <section className="quienes">
         <h2>¿Quienes somos?</h2>
-        <p> Somos desarrolladores enfocados en la innovación digital, comprometidos
-        con transformar ideas en productos tecnológicos funcionales. Nos
-        caracterizamos por la creatividad, el trabajo en equipo y la mejora continua.</p>
+        <p>Somos apasionados por el deporte y el bienestar. Nuestro objetivo es
+          inspirarte a alcanzar tus metas con ropa que se adapte a tu ritmo de vida,
+          combinando tecnología, diseño y confort.</p>
       </section>
     </main>
 
     {/* aside: información adicional */}
     {/* aside: para contenido secundario o extra */}
     <aside className="aside">
-      <h3>Informacion Extra</h3>
-      <p>Próximamente estaremos publicando nuevos proyectos, artículos y recursos
-      relacionados con el desarrollo web.</p>
+      <h3>Novedades</h3>
+      <p>Próximamente lanzaremos nuevas colecciones de ropa deportiva,
+        promociones exclusivas y accesorios para tu entrenamiento.</p>
     </aside>
 
     {/* footer: pie de página */}
     <footer className="footer">
-      <p>2026 Mi App - Todos los derechos reservados</p>
+      <p>2026 SportWear - contactanos</p>
     </footer>
     </div>
 
