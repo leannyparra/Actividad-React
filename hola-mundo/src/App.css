@@ -1,47 +1,54 @@
+/* contenedor principal */
+/* Organiza todos los elementos en columna uno debajo del otro */
 .contenedor{
   display: flex;
   flex-direction: column;
 }
 
+/* barra de navegacion */
 .navbar{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #000000;
-  padding: 15px 40px;
-  color: white;
-  box-shadow:  0 2px 10px rgba(0, 0, 0, 0.2);
+  display: flex;  /* coloca elementos en fila */
+  justify-content: space-between; /* separa logo y menú */
+  align-items: center;  /* centra verticalmente */
+  background: #000000;  /* color de fondo */
+  padding: 15px 40px;  /* espacio interno */
+  color: white; /* color del texto */
+  box-shadow:  0 2px 10px rgba(0, 0, 0, 0.2);  /* da sombra */
 }
 
-.logo{
-  margin: 0;
+.titulo{
+  margin: 0; /* Quita margen por defecto del título */
 }
 
+/* link del menu */
+/* Quita viñetas y organiza en fila */
 .nav-links{
   list-style: none;
-  display: flex;
-  gap: 25px;
+  display: flex; /* coloca elementos en fila */
+  gap: 25px; /* espacio entre elementos */
 }
 
 .nav-links li{
-  cursor: pointer;
-  transition: 0.3s;
+  cursor: pointer; /* Cambia cursor */
+  transition: 0.3s;  /* agrega transición */
 }
+
+/* Cambia color al pasar el mouse */
 .nav-links li:hover {
   color: #00bcd4;
 }
 
 /*inicio */
 .inicio{
-  height:90vh;
-  background: linear-gradient(135deg, #79d4e8, #563bb8);
+  height:90vh; /* ocupa casi toda la pantalla */
+  background: linear-gradient(135deg, #79d4e8, #563bb8); /* fondo degradado */
   color: white;
-  display: flex;
+  display: flex; /* coloca elementos en fila */
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  text-align: center;
+  justify-content: center; /* centra vertical */
+  align-items: center; /* centra horizontal */
+  gap: 15px; /* espacio entre elementos */
+  text-align: center; /* centra texto */
   padding: 20px;
 }
 
@@ -51,7 +58,7 @@
 }
 
 .inicio p {
-  max-width: 500px;
+  max-width: 500px; /* limita ancho para mejor lectura */
 }
 
 .inicio button {
