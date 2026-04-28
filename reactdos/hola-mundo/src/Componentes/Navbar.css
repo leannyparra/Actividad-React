@@ -1,0 +1,37 @@
+/* barra de navegacion */
+.navbar{
+  display: flex;  /* coloca elementos en fila */
+  justify-content: space-between; /* separa el titulo y menú */
+  align-items: center;  /* centra verticalmente */
+  background:#000000;  /* color de fondo */
+  padding: 15px 40px;  /* espacio interno */
+  color:white; /* color del texto */
+  border-bottom: 1px solid #222;
+}
+
+.app{
+  margin: 0; /* Quita margen por defecto del título */
+  font-size: 22px;
+  letter-spacing: 2px;
+
+}
+
+/* link del menu */
+/* Quita viñetas y organiza en fila */
+.nav-links{
+  list-style: none; /* quita los puntos de la lista */
+  display: flex; /* coloca elementos en fila */
+  gap: 30px; /* espacio entre elementos */
+}
+
+.nav-links li{
+  cursor: pointer; /* Cambia cursor */
+  transition: 0.3s;
+  font-weight: 500;
+  
+}
+
+/* Cambia color al pasar el mouse */
+.nav-links li:hover {
+  color: #00ff88;
+}

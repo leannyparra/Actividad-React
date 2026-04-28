@@ -1,0 +1,37 @@
+//import React from 'react'
+import "./SeccionPrincipal.css"
+
+const SeccionPrincipal = () => {
+  return (
+    <div>
+        {/* contenido principal */}
+        {/* seccion principal: presentación principal */}
+        {/* section:para dividir la página en partes organizadas. */}
+      <section className="inicio">
+        <h1>Rinde al máximo con nuestro estilo</h1>
+        <p> Descubre ropa deportiva de alta calidad diseñada para brindarte
+          comodidad, resistencia y estilo en cada entrenamiento.</p>
+        <button>Ver coleccion</button> {/* Botón de acción */}
+      </section>
+
+       {/* seccion acerca de: información del proyecto */}
+      <section className="acerca">
+        <h2>Acerca de nosotros</h2>
+        <p>Somos una marca dedicada a la ropa deportiva, enfocada en ofrecer
+          prendas modernas, cómodas y funcionales para deportistas y personas
+          activas. Trabajamos con materiales de alta calidad para mejorar tu rendimiento.</p>
+      </section>
+
+      {/* seccion quienes somos: descripcion del equipo */}
+      <section className="quienes">
+        <h2>¿Quienes somos?</h2>
+        <p>Somos apasionados por el deporte y el bienestar. Nuestro objetivo es
+          inspirarte a alcanzar tus metas con ropa que se adapte a tu ritmo de vida,
+          combinando tecnología, diseño y confort.</p>
+      </section>
+    </div>
+  )
+}
+
+export default SeccionPrincipal
+

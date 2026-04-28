@@ -1,0 +1,72 @@
+/*inicio */
+.inicio{
+  height: 85vh; /* ocupa casi toda la pantalla */
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9));
+  background-size: cover;
+  background-position: center;
+  color: white; /* color del texto */
+  display: flex; /* coloca elementos en fila */
+  flex-direction: column; /* alinea de forma vertical  */
+  justify-content: center; /* centra vertical */
+  align-items: center; /* centra horizontal */
+  gap: 20px; /* espacio entre elementos */
+  text-align: center; /* centra texto */
+  padding: 20px; 
+}
+
+.inicio h1 {
+  font-size: 55px; /* tamaño del titulo */
+  margin: 0; /* espacio entre el titulo, y los demas elementos   */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+.inicio p {
+  max-width: 500px; /* limita ancho para mejor lectura */
+  color: #ccc;
+}
+
+.inicio button {
+  margin-top: 15px; /* espacio arriba del boton */
+  padding: 10px 25px; /* Espacio dentro del boton entre el texto y el borde */
+  border: none; /* Quita el borde del boton */
+  border-radius: 5px; /* hace esquinar redondeadas*/
+  background: white; /* color del boton */
+  color: #333; /* color del texto */
+  font-weight: bold; /* hace el texto en negrilla */
+  cursor: pointer; /*cambia el cursor a una manito*/
+}
+
+/* Cambia color al pasar el mouse */
+.inicio button:hover {
+  background: #70e09b;
+  color: white;
+}
+
+/* acerca */
+.acerca {
+  padding: 60px 20px; /* espacio entre el texto y la margen*/
+  text-align: center; /* centra el texto */
+  background: rgb(241, 237, 237); /* color de fondo */
+}
+
+.acerca h2 {
+  margin-bottom: 15px; /* espacio entre el subtitulo y el texto*/
+}
+
+.acerca p {
+  max-width: 600px; /* junta el texto */
+  margin: auto;
+  color: #555; /* color de la letra */
+}
+
+/* quienes somos */
+.quienes {
+  max-width: 600px; /* junta el texto */
+  padding: 50px;
+  margin: auto;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}

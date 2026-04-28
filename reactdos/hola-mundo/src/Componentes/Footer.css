@@ -1,0 +1,9 @@
+/* footer */
+.footer {
+  background: #000;
+  color: #888;
+  text-align: center; /* centra el texto */
+  padding: 20px;
+  font-size: 14px;
+  border-top: 1px solid #222;
+}
